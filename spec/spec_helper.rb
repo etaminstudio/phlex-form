@@ -29,7 +29,6 @@ end
 
 require "phlex/form/test_helpers"
 require "capybara/rspec"
-require "ostruct"
 
 Dir["./spec/support/**/*.rb"].each { |f| require f }
 
