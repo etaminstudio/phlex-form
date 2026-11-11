@@ -1,0 +1,11 @@
+Style/Documentation:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Style/OpenStructUse:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false

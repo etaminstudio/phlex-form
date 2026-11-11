@@ -1,0 +1,27 @@
+# frozen_string_literal: true
+
+class <%= class_name %> < Phlex::Form::Builder
+  # Instead of inheriting from Phlex::Form::Builder,
+  # you can also inherit from ActionView::Helpers::FormBuilder
+  # then include only the modules you need:
+
+  # Provides `render_component` method and namespace management
+  # include Phlex::Form::Renderer
+
+  # Exposes a `validation_context` to your components
+  # include Phlex::Form::ValidationContext
+
+  # All standard Rails form helpers
+  # include Phlex::Form::Helpers::Rails
+
+  # Adds support for Rails 8
+  # include Phlex::Form::Helpers::Rails8
+
+  # Additional form helpers provided by Phlex::Form
+  # include Phlex::Form::Helpers::Custom
+
+  # Set the namespace you want to use for your own components
+  # requires inheriting from Phlex::Form::Builder
+  # or including Phlex::Form::Renderer
+  namespace "<%= components_namespace %>"
+end

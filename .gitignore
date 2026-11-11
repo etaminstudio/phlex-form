@@ -1,0 +1,20 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/spec/internal/log
+/spec/internal/public
+/spec/internal/db/*.sqlite
+/spec/internal/db/*.sqlite-*
+/tmp/
+/vendor/
+
+# appraisal
+/gemfiles/*.gemfile.lock
+/gemfiles/.bundle/
+
+# rspec failure tracking
+.rspec_status
