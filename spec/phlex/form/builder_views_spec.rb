@@ -34,7 +34,7 @@ RSpec.describe Phlex::Form::Builder, type: :component do
   let(:record) do
     record_class.new(name: "Ada", role: "editor", tag_ids: [2], address: address_class.new(id: 7, city: "Lyon"))
   end
-  let(:tags) { [OpenStruct.new(id: 1, name: "Red"), OpenStruct.new(id: 2, name: "Blue")] }
+  let(:tags) { [Struct.new(:id, :name).new(1, "Red"), Struct.new(:id, :name).new(2, "Blue")] }
 
   let(:erb) do
     <<~ERB
