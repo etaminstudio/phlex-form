@@ -6,4 +6,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Phlex::Form: a port of [view_component-form](https://github.com/pantographe/view_component-form) 0.4.0 to Phlex
+- Phlex::Form: a port of [view_component-form](https://github.com/pantographe/view_component-form) 0.4.0 to Phlex, with its fixes since then: `label` blocks translated with their `value:`, and the saved value of `rich_textarea` kept over its block
